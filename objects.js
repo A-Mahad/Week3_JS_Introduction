@@ -23,7 +23,7 @@ const example = {
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
-// Mitzi's name
+// Mitzi's name here
 const mmelloy0 = {
   id: 1,
   name: "Mitzi",
