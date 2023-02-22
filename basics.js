@@ -8,8 +8,9 @@ Do the following:
 
    HINT: look up the Number method / Raadi Number Method wax la dhaho
 */
-
-
+let str1 = "1999";
+let num1 = Number(str1);
+console.log(num1);
 /*
 Task: Mood Checker
 
@@ -19,6 +20,19 @@ Do the following:
    3. Else just print 'So moody!' / Hadii kale 'So Moody!' soo saar.
 
 */
+function currentmood(mood) {
+   if (mood >15 ) {
+      return 'Yay me too!';
+   }
+   else if (mood <15 ) {
+      return 'Aw cheer up'
+   }
+   else {
+      return 'So moody!'
+   }
+}
+console.log(currentmood(25))
+
 
 
 /*
@@ -33,7 +47,12 @@ Adigoo 'if/else' isticmaalaayo hubi in nambar uu yahay 'kisi ama dhaban', kadi c
 var num = 16; // You can change this number! / Number-kaan ku bilow
 
 // write your conditions here / Code-kaada halkaan ku qor
-
+if (num % 2 == 0){
+   console.log('Even')
+}
+else if (num % 2 == 1) {
+   console.log('Odd')
+}
 
 
 
@@ -93,6 +112,22 @@ It's okay for it to be slow.
 
 */
 
+for ( let i=1; i< 101; i++ )
+{
+ if (i%15 === 0){
+    console.log('FizzBuzz');
+ }
+ if(i%3 === 0){
+   console.log('Buzz');
+}
+ else if(i%5 === 0){
+    console.log('Fizz');
+ }
+ else if ( i % 2 === 0)
+ {
+   console.log('prime')
+ }
+}
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
 
@@ -106,7 +141,6 @@ Using the vowelCounter function below do the following:
   HINT - try looking up the .includes() method
 */
 
-
-function vowelCounter(/*add your code here*/) {
+// var vowelCounter(/*add your code here*/) {
     /*add your code here*/
-}
+//
